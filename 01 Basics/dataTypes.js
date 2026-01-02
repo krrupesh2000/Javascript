@@ -1,24 +1,25 @@
-"use strict"; //treat all JS code as newer version
+"use strict"; // enable modern JS semantics and stricter checks
 
-
+// Primitive values
 let name = "Rupesh"
 let age = 22
 let isLoggedIn = true
 
-
 /*
-number => 2 to power 53
-bigint
-string => ""
-boolean => true/false
-null => standalone value
-undefined => value not assigned
-symbol => unique
+Primitive types summary:
+- number => IEEE-754 double (safe integer range: ±2^53)
+- bigint => arbitrary-size integers (use when beyond number range)
+- string => "..."
+- boolean => true / false
+- null => explicit "no value" placeholder
+- undefined => variable declared but not assigned
+- symbol => unique identifiers
 
-
-object
+Non-primitive:
+- object => arrays, functions, plain objects, etc.
 */ 
 
-console.log(typeof undefined); //undefined
-console.log(typeof null); // object
+// Note: typeof null is an historical quirk returning "object"
+console.log(typeof undefined); // "undefined"
+console.log(typeof null); // "object"
 
