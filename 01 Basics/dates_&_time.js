@@ -74,5 +74,5 @@ console.log('UTC constructed date (ISO):', utcDate.toISOString());
 	Summary:
 	- Create: `new Date()` (now), `new Date(ms)`, `new Date(year, monthIndex, day, ...)`, or `new Date(isoString)`
 	- Common methods: `getFullYear()`, `getMonth()`, `getDate()`, `getDay()`, `getHours()`
-	- Useful output: `toString()`, `toDateString()`, `toISOString()`, `toLocaleString()`
+	- Useful output: `toString()`, `toDateString()`, `toISOString()`, `toLocaleString()` 
 */
