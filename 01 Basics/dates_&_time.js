@@ -17,7 +17,8 @@ console.log('Current Date (raw):', myDate);
 console.log('toString():', myDate.toString());
 console.log('toDateString():', myDate.toDateString());
 console.log('toISOString():', myDate.toISOString()); // ISO 8601, good for storage/transport
-console.log('toLocaleString():', myDate.toLocaleString()); // formatted for your locale
+console.log('toLocaleStrigit add <file1> <file2>
+git commit --amend --no-editng():', myDate.toLocaleString()); // formatted for your locale
 console.log('toLocaleDateString():', myDate.toLocaleDateString());
 console.log('toJSON():', myDate.toJSON());
 console.log('typeof myDate:', typeof myDate); // "object"
